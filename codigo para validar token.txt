@@ -1,0 +1,27 @@
+//codigo para validar token
+
+app.get('/info', verificacion, (req, res) =>{
+    res.json('informacion recibida');
+});
+
+
+
+
+cadena de conexion mongodb
+mongodb+srv://Oscar:Stfme1228*@cluster0.gieshwi.mongodb.net/proyecto
+
+mongodb+srv://Oscar:Stfme1228*@cluster0.gieshwi.mongodb.net/
+
+modulo clientes prueba postman
+
+{
+    "nombres": "abby",
+    "apellidos": "amaya",
+    "documento": 100235687,
+    "correo": "abby1412@gmail.com",
+    "telefono": 3123746487,
+    "direccion": "cll. 162-8h-04"
+}
+
+
+crear modulo, controller, ruta, models y hacer un documento en word y documentar como quedo el controller, como quedo el modelo y como quedo la ruta, hacer pruebas en postman donde se vea que funciona y pantallazos de la base de datos con los datos, esto es base de datos relacional.
